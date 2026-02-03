@@ -81,6 +81,7 @@ namespace OtelFrameworkSample
             Console.WriteLine("Generating sample telemetry...");
             Console.WriteLine();
 
+            var random = new Random();
             for (int i = 1; i <= 5; i++)
             {
                 // Create a trace span
@@ -94,7 +95,6 @@ namespace OtelFrameworkSample
                         i, DateTime.UtcNow);
 
                     // Simulate some work
-                    var random = new Random();
                     var duration = random.Next(100, 500);
                     Thread.Sleep(duration);
 

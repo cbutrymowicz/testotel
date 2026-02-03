@@ -20,6 +20,7 @@ bld/
 *.user
 *.userosscache
 *.sln.docstates
+*.rsuser
 
 # NuGet Packages
 *.nupkg
@@ -38,10 +39,3 @@ bld/
 # Rider
 .idea/
 *.sln.iml
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
